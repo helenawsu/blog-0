@@ -1,4 +1,4 @@
-# Svelte Template Hot
+random edit # Svelte Template Hot
 
 This is a copy of official [Svelte template](https://github.com/sveltejs/template) with added HMR support. It lives at https://github.com/rixo/svelte-template-hot.
 
