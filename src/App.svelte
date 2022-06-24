@@ -24,9 +24,9 @@
   </section>
   <section>
     <h1>0.Overview</h1>
-    <p>the very start</p>
+    <p style="position: relative; left: 170px; font-size: 1em">the very start–—a wall</p>
     <!-- svelte-ignore a11y-missing-attribute -->
-    <img src="images/IMG_2311.jpg">
+    <img src="./images/IMG_2311.webp" width = 512>
   </section>
   <section>
     <h1>1.Conceptual Model</h1>
@@ -40,10 +40,8 @@
   
 </main>
 
-<head>
-  <meta charset="utf-8">
-  <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+<svelte:head>
+</svelte:head>
 <style>
   main {
     /* text-align: center; */
@@ -70,6 +68,7 @@
   }
   p{
     font-family: 'Didact Gothic', sans-serif;
+    color: #233b4d;
   }
   .lastupdatetime{
     padding: 0em;
@@ -89,4 +88,3 @@
     }
   }
 </style>
-</head>
