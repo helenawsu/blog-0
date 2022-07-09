@@ -18,7 +18,7 @@
 </script>
 
 <main>
-  <p class="lastupdatetime"> this page was last updated on Jun 25, 2022 </p>
+  <p class="lastupdatetime"> this page was last updated on July 8, 2022 </p>
   <section>
     <h1 class="title">My First architectural models</h1>
   </section>
@@ -27,17 +27,17 @@
     
 
       <div class="row">
-        <div class="column" style="border-right-style: solid; border-top-style: solid;">
+        <div class="column" style="border-top-style: solid;">
           <h3>Beginning --> </h3>
-          <p style="position: relative; left: 0px; font-size: 1em">the very start–—a wall<br>
-            it is supposed to be a transparent glass wall, but I only have chipboard</p>
+          <p style="position: relative; left: 0px;">First, select a house: <br>I picked the <a href="https://eamesfoundation.org/house/eames-house/">Eames House</a>, a mid-20th century house in Los Angeles.
+            <br>In the next 2 hours, after concluding the 1:200 scale is nearly impossible to work with, I drew out the pattern of one wall.<p/>
           <img src="./images/IMG_2311.webp" width = 600 alt="a single peice of wall">
 
         </div>
-        <div class="column" style="border-bottom-style: solid;">
-          <h3>End</h3>
-          <p>coming soon :D <br>
-            as of when this page is last updated i'm not done with the final model yet</p>
+        <div class="column" style="border-bottom-style: solid; border-left-style:solid;">
+          <h3 style="position: relative; left: 20px">End</h3>
+          <p style="position: relative; left: 20px">Final model, scale 1:100</p>
+          <img style="position: relative; left: 20px" src="./images/IMG_2867.webp" width = 600 alt="finished model">
         </div>
       </div>
 
@@ -48,8 +48,8 @@
     <p>I poked a hole too big, using white glue to fill in the space</p>
     <img src="./images/IMG_2313.webp" height = 400 alt="a big hole">
     <img src="./images/IMG_2419.webp" height = 400 alt="nearly-finished">
-    <p style="position: relative; left: 310px; font-family: 'Major Mono Display', monospace; color: #d15634;">major update</p>
-    <p style="position: relative; left: 310px;">1. With vibrant colors!! Contrast with the (supposedly) clear glass!! <br>
+    <p style="position: relative; left: 310px; font-family: 'Major Mono Display', monospace; color: #d15634; width: 50%;">major update</p>
+    <p style="position: relative; left: 310px; width: 50%;">1. With vibrant colors!! Contrast with the (supposedly) clear glass!! <br>
   2. I added the black mullions to make it more structured</p>
 
 
@@ -57,8 +57,25 @@
   <section>
     <h2>2.Translational Model</h2>
   </section>
+
+
   <section>
     <h2>3.Finish Model</h2>
+    <img src="./images/IMG_2743.webp" width = 300 alt="a small peice of wall">
+    <img src="./images/IMG_2744.webp" width = 300 alt="shadows of a wall">
+    <img src="./images/IMG_2776.webp" width = 300 alt="messy desk">
+    <img src="./images/IMG_2782.webp" width = 300 alt="accurately designed floating pillar">
+    <img src="./images/IMG_2784.webp" width = 300 alt="clogged superglue">
+    <img src="./images/IMG_2823.webp" width = 300 alt="fixed floating pillar">
+    <img src="./images/IMG_2824.webp" width = 300 alt="finished eames house">
+    <img src="./images/IMG_2825.webp" width = 300 alt="well decorated interior design">
+    <img src="./images/IMG_2829.webp" width = 300 alt="with stair in the middle">
+    <img src="./images/IMG_2834.webp" width = 300 alt="triangle frame balancing on its own">
+    <img src="./images/IMG_2838.webp" width = 300 alt="messy desk plus lunch">
+    <img src="./images/IMG_2840.webp" width = 300 alt="triangle pattern balancing on its own">
+    <img src="./images/IMG_2843.webp" width = 300 alt="finished model">
+
+  
   </section>
   
 </main>
@@ -97,6 +114,7 @@
   p{
     font-family: 'Didact Gothic', sans-serif;
     color: #233b4d;
+    font-size: 1.2em;
   }
   .lastupdatetime{
     padding: 0em;
@@ -122,9 +140,16 @@
   display: table;
   clear: both;
 }
-  @media (min-width: 640px) {
+
+@media (min-width: 640px) {
     main {
       max-width: none;
     }
-  }
+}
+/* *
+{
+  box-sizing: border-box;
+  outline: 1px red !important} */
+
 </style>
+
