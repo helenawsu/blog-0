@@ -18,7 +18,7 @@
 </script>
 
 <main>
-  <p class="lastupdatetime"> this page was last updated on July 8, 2022 </p>
+  <p class="lastupdatetime"> this page was last updated on July 10, 2022 </p>
   <section>
     <h1 class="title">My First architectural models</h1>
   </section>
@@ -45,12 +45,22 @@
   </section>
   <section>
     <h2>1.Conceptual Model</h2>
-    <p>I poked a hole too big, using white glue to fill in the space</p>
-    <img src="./images/IMG_2313.webp" height = 400 alt="a big hole">
-    <img src="./images/IMG_2419.webp" height = 400 alt="nearly-finished">
-    <p style="position: relative; left: 310px; font-family: 'Major Mono Display', monospace; color: #d15634; width: 50%;">major update</p>
-    <p style="position: relative; left: 310px; width: 50%;">1. With vibrant colors!! Contrast with the (supposedly) clear glass!! <br>
+
+    <div class="flex-container">
+      <div class="flex-items">
+        <img src="./images/IMG_2313.webp" height = 400 alt="a big hole">
+        <p>I poked a hole too big, using white glue to fill in the space</p>
+      </div>
+      <div class="flex-items">
+        <img src="./images/IMG_2419.webp" height = 400 alt="nearly-finished">
+        <p style="font-family: 'Major Mono Display', monospace; color: #d15634;">major update</p>
+    <p>1. With vibrant colors!! Contrast with the (supposedly) clear glass!! <br>
   2. I added the black mullions to make it more structured</p>
+      </div>
+    </div>
+
+    
+    
 
 
   </section>
@@ -61,19 +71,59 @@
 
   <section>
     <h2>3.Finish Model</h2>
-    <img src="./images/IMG_2743.webp" width = 300 alt="a small peice of wall">
-    <img src="./images/IMG_2744.webp" width = 300 alt="shadows of a wall">
-    <img src="./images/IMG_2776.webp" width = 300 alt="messy desk">
-    <img src="./images/IMG_2782.webp" width = 300 alt="accurately designed floating pillar">
-    <img src="./images/IMG_2784.webp" width = 300 alt="clogged superglue">
-    <img src="./images/IMG_2823.webp" width = 300 alt="fixed floating pillar">
-    <img src="./images/IMG_2824.webp" width = 300 alt="finished eames house">
-    <img src="./images/IMG_2825.webp" width = 300 alt="well decorated interior design">
-    <img src="./images/IMG_2829.webp" width = 300 alt="with stair in the middle">
-    <img src="./images/IMG_2834.webp" width = 300 alt="triangle frame balancing on its own">
-    <img src="./images/IMG_2838.webp" width = 300 alt="messy desk plus lunch">
-    <img src="./images/IMG_2840.webp" width = 300 alt="triangle pattern balancing on its own">
-    <img src="./images/IMG_2843.webp" width = 300 alt="finished model">
+
+    <div class="flex-container">
+      <div class="flex-items">
+        <img src="./images/IMG_2743.webp" height = 400 alt="a small peice of wall">
+        <p>hi</p>
+      </div>
+      <div class="flex-items">
+        <img src="./images/IMG_2744.webp" height = 400 alt="shadows of a wall">
+        <p>hi</p>
+      </div>
+    </div>
+
+    <div class="flex-container">
+      <div class="flex-items">
+        <img src="./images/IMG_2782.webp" height = 400 alt="accurately designed floating pillar">
+        <p>hi</p>
+      </div>
+      <div class="flex-items">
+        <img src="./images/IMG_2823.webp" height = 400 alt="fixed floating pillar">
+        <p>hi</p>
+      </div>
+      <div class="flex-items">
+        <img src="./images/IMG_2784.webp" height = 400 alt="clogged superglue">
+        <p>hi</p>
+      </div>
+    </div>
+
+    <div class="flex-container">
+      <div class="flex-items">
+        <img src="./images/IMG_2824.webp" height = 400 alt="finished eames house">
+        <p>hi</p>
+      </div>
+      <div class="flex-items">
+        <img src="./images/IMG_2825.webp" height = 400 alt="well decorated interior design">
+        <p>hi</p>
+      </div>
+    </div>
+
+    <div class="flex-container">
+      <div class="flex-items">
+        <img src="./images/IMG_2829 2.webp" height = 347 alt="with stair in the middle">
+        <p>hi</p>
+      </div>
+      <div class="flex-items">
+        <img src="./images/IMG_2834.webp" height = 347 alt="triangle frame balancing on its own">
+        <p>hi</p>
+      </div>
+      <div class="flex-items">
+        <img src="./images/IMG_2840.webp" height = 347 alt="triangle pattern balancing on its own">
+        <p>hi</p>
+      </div>
+    </div>
+
 
   
   </section>
@@ -139,6 +189,17 @@
   content: "";
   display: table;
   clear: both;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.flex-items{
+  padding: 10px; /* this */
+
 }
 
 @media (min-width: 640px) {
