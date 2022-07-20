@@ -17,18 +17,18 @@
 <!-- svelte-ignore missing-declaration -->
 
 <main>
-  <p class="lastupdatetime">this page was last updated on July 16, 2022</p>
+  <p class="lastupdatetime">this page was last updated on July 19, 2022</p>
   <section>
-    <h1 class="title">My First architectural models</h1>
+    <h1 class="title">MY FRIST ARCHITECTURAL MODELS</h1>
   </section>
   <section>
     <h2>0.Overview</h2>
 
     <div class="row background2">
       <div class="column">
-        <h3>Beginning --></h3>
+        <h3>beginning --></h3>
         <p style="position: relative; left: 0px;">
-          First, select a house: <br />I picked the
+          First, select a house to make: <br />I picked the
           <a href="https://eamesfoundation.org/house/eames-house/"
             >Eames House</a
           >, a mid-20th century house in Los Angeles.
@@ -39,17 +39,20 @@
         <p />
         <img
           src="./images/IMG_2311.webp"
-          width="600"
+          width="500"
           alt="a single peice of wall"
         />
       </div>
       <div class="column" style="border-left-style:solid;">
-        <h3 style="position: relative; left: 20px">End</h3>
-        <p style="position: relative; left: 20px">Final model, scale 1:100</p>
+        <h3 style="position: relative; left: 20px">end</h3>
+        <p style="position: relative; left: 20px">
+          Final model, scale 1:100, which means that in real life scale, the
+          height of the triangle frame is ~20m tall.
+        </p>
         <img
           style="position: relative; left: 20px"
           src="./images/IMG_2867.webp"
-          width="600"
+          width="500"
           alt="finished model"
         />
       </div>
@@ -80,12 +83,12 @@
     <br />
 
     <section class="border">
-      <h4>process</h4>
+      <h4>Process</h4>
       <section>
         <div class="flex-container">
           <div class="flex-items">
             <figure>
-              <img src="./images/IMG_2313.webp" height="400" alt="a big hole" />
+              <img src="./images/IMG_2313.webp" height="300" alt="a big hole" />
               <figcaption>Poking a hole for pillar to stick inside</figcaption>
             </figure>
           </div>
@@ -93,7 +96,7 @@
             <figure>
               <img
                 src="./images/IMG_2419.webp"
-                height="400"
+                height="300"
                 alt="nearly-finished"
               />
               <figcaption>
@@ -103,70 +106,105 @@
               </figcaption>
             </figure>
           </div>
+          <div class="flex-items">
+            <figure>
+              <img
+                src="./images/IMG_2430.webp"
+                height="300"
+                alt="first model Eames House"
+              />
+              <figcaption>
+                Finished Eames House. It basically consists of two rectangular
+                volumes.
+              </figcaption>
+            </figure>
+          </div>
         </div>
-
-        <figure>
-          <img
-            src="./images/IMG_2430.webp"
-            height="400"
-            alt="first model Eames House"
-          />
-          <figcaption>hi</figcaption>
-        </figure>
-
-        <figure>
-          <img
-            src="./images/first model Eames House.gif"
-            height="400"
-            alt="first model Eames House gif"
-          />
-          <figcaption>hi</figcaption>
-        </figure>
-
-        <figure>
-          <img
-            src="./images/IMG_2436.webp"
-            height="400"
-            alt="first model card extension"
-          />
-          <figcaption>hi</figcaption>
-        </figure>
-
-        <figure>
-          <img
-            src="./images/IMG_2439.webp"
-            height="400"
-            alt="first model pencil extension"
-          />
-          <figcaption>hi</figcaption>
-        </figure>
-
-        <figure>
-          <img
-            src="./images/IMG_2441.webp"
-            height="400"
-            alt="first model chips extension"
-          />
-          <figcaption>hi</figcaption>
-        </figure>
-
-        <figure>
-          <img
-            src="./images/IMG_2440.webp"
-            height="400"
-            alt="first model triangle extension"
-          />
-          <figcaption>hi</figcaption>
-        </figure>
-
-        <figure>
-          <img
-            src="./images/IMG_2496.webp"
-            height="400"
-            alt="first model finished"
-          />
-          <figcaption>hi</figcaption>
-        </figure>
+        <br />
+        <h4>Brainstorming Possible Extension</h4>
+        <p style="padding: 10px; width: 90%">
+          After copying down the original house, I need to brainstorm new
+          additions to the building. It could be anything from a house for
+          living or a decoration. To get a better geometric sense of how the
+          extensions would look like, I played with everyday objects.
+        </p>
+        <div class="flex-container">
+          <div class="flex-items">
+            <figure>
+              <img
+                src="./images/IMG_2436.webp"
+                height="300"
+                alt="first model card extension"
+              />
+              <figcaption>
+                Card extensions. They could be gigantic slides for fun.
+              </figcaption>
+            </figure>
+          </div>
+          <div class="flex-items">
+            <figure>
+              <img
+                src="./images/IMG_2441.webp"
+                height="400"
+                alt="first model chips extension"
+              />
+              <figcaption>
+                Pencils and chips. They might be pure decorations.
+              </figcaption>
+            </figure>
+          </div>
+          <div class="flex-items">
+            <figure>
+              <img
+                src="./images/IMG_2439.webp"
+                height="400"
+                alt="first model pencil extension"
+              />
+              <figcaption>
+                Pencils. I was thinking of tent poles/bonfire when I made this.
+              </figcaption>
+            </figure>
+          </div>
+          <div class="flex-items">
+            <figure>
+              <img
+                src="./images/IMG_2440.webp"
+                height="400"
+                alt="first model triangle extension"
+              />
+              <figcaption>
+                Triangle frame. I decided to go with this because it's fun to
+                see such a big shape blance on its own.
+              </figcaption>
+            </figure>
+          </div>
+          <div class="flex-items">
+            <figure>
+              <img
+                src="./images/IMG_2496.webp"
+                height="400"
+                alt="first model finished"
+              />
+              <figcaption>
+                I made the triangle frames into a garden, with plants on the
+                vertical walls.
+              </figcaption>
+            </figure>
+          </div>
+          <div class="flex-items">
+            <figure>
+              <!-- svelte-ignore a11y-img-redundant-alt -->
+              <img
+                src="./images/plant photo.webp"
+                height="400"
+                alt="inspiration photo"
+              />
+              <figcaption>
+                reference photo for the wall of plants (PC: Dezeen)
+              </figcaption>
+            </figure>
+          </div>
+        </div>
       </section>
     </section>
 
@@ -194,7 +232,7 @@
     </section>
     <br />
     <section class="border">
-      <h4>process</h4>
+      <h4>Process</h4>
     </section>
 
     <h2>3.Finish Model</h2>
@@ -219,11 +257,11 @@
     </section>
     <br />
     <section>
-      <h4>process</h4>
+      <h4>Process</h4>
       <div class="flex-container background2">
         <div class="flex-items">
           <figure>
-            <img src="./images/IMG_2893.webp" height="400" alt="tools" />
+            <img src="./images/IMG_2893.webp" height="300" alt="tools" />
             <figcaption>
               <ol>
                 <li>metal wire</li>
@@ -250,7 +288,7 @@
           <figure>
             <img
               src="./images/IMG_2743.webp"
-              height="400"
+              height="300"
               alt="a small peice of wall"
             />
             <figcaption>
@@ -262,43 +300,17 @@
           <figure>
             <img
               src="./images/IMG_2744.webp"
-              height="400"
+              height="300"
               alt="shadows of a wall"
             />
             <figcaption>I took a picture of the first wall</figcaption>
-          </figure>
-        </div>
-      </div>
-
-      <div class="flex-container background2">
-        <div class="flex-items">
-          <figure>
-            <img
-              src="./images/IMG_2782.webp"
-              height="400"
-              alt="accurately designed floating pillar"
-            />
-            <figcaption>
-              I accurately made a wall of pillars that is too short to touch the
-              ground.
-            </figcaption>
-          </figure>
-        </div>
-        <div class="flex-items">
-          <figure>
-            <img
-              src="./images/IMG_2823.webp"
-              height="400"
-              alt="fixed floating pillar"
-            />
-            <figcaption>After some re-touch:</figcaption>
           </figure>
         </div>
         <div class="flex-items">
           <figure>
             <img
               src="./images/IMG_2784.webp"
-              height="400"
+              height="300"
               alt="clogged superglue"
             />
             <figcaption>
@@ -312,8 +324,31 @@
         <div class="flex-items">
           <figure>
             <img
+              src="./images/IMG_2782.webp"
+              height="300"
+              alt="accurately designed floating pillar"
+            />
+            <figcaption>
+              I accurately made a wall of pillars that is too short to touch the
+              ground.
+            </figcaption>
+          </figure>
+        </div>
+        <div class="flex-items">
+          <figure>
+            <img
+              src="./images/IMG_2823.webp"
+              height="300"
+              alt="fixed floating pillar"
+            />
+            <figcaption>After some re-touch:</figcaption>
+          </figure>
+        </div>
+        <div class="flex-items">
+          <figure>
+            <img
               src="./images/IMG_2824.webp"
-              height="400"
+              height="300"
               alt="finished eames house"
             />
             <figcaption>8 walls + 2 roofs = I finished Eames House</figcaption>
@@ -323,7 +358,7 @@
           <figure>
             <img
               src="./images/IMG_2825.webp"
-              height="400"
+              height="300"
               alt="well decorated interior design"
             />
             <figcaption>well-decorated interior</figcaption>
@@ -336,7 +371,7 @@
           <figure>
             <img
               src="./images/IMG_2829 2.webp"
-              height="335"
+              height="300"
               alt="with stair in the middle"
             />
             <figcaption>
@@ -349,7 +384,7 @@
           <figure>
             <img
               src="./images/IMG_2834.webp"
-              height="335"
+              height="300"
               alt="triangle frame balancing on its own"
             />
             <figcaption>
@@ -363,7 +398,7 @@
           <figure>
             <img
               src="./images/IMG_2840.webp"
-              height="335"
+              height="300"
               alt="triangle pattern balancing on its own"
             />
             <figcaption>
@@ -415,9 +450,9 @@
 
   h4 {
     font-family: 'Major Mono Display', monospace;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     border-bottom: 1px solid #d15634;
-    width: 630px;
+    width: 50%;
   }
 
   p {
