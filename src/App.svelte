@@ -17,7 +17,7 @@
 <!-- svelte-ignore missing-declaration -->
 
 <main>
-  <p class="lastupdatetime">this page was last updated on July 19, 2022</p>
+  <p class="lastupdatetime">this page was last updated on July 21, 2022</p>
   <section>
     <h1 class="title">MY FRIST ARCHITECTURAL MODELS</h1>
   </section>
@@ -66,17 +66,22 @@
 
     <section class="background">
       <div class="flex-container">
-        <div>
-          <figure>
-            <img
-              src="./images/IMG_2497.webp"
-              height="400"
-              alt="first model overview"
-            />
-            <figcaption style="float: right; position: relative; left: 20px">
-              summary and idea of first model
-            </figcaption>
-          </figure>
+        <div style="float: left; width: 400">
+          <img
+            src="./images/IMG_2497.webp"
+            height="400"
+            alt="first model overview"
+            style="float: left"
+          />
+        </div>
+          <div style="float: right;">
+          <ul style="position: relative; left: 50px; top: 100px;">
+            <li>Scale</li>
+            <ul style="position: relative; left: 0px; width: 750px;"><li>1:200 (1cm=2m). In this scale, most of the details, such as the variation in the thickness of the window frames, can be ignored.</li></ul>
+            <li>Goal</li>
+            <ul style="position: relative; left: 0px;"><li>Make a model of Eames House and brainstorm possible extensions.</li></ul>
+          </ul>
+        
         </div>
       </div>
     </section>
@@ -133,7 +138,7 @@
             <figure>
               <img
                 src="./images/IMG_2436.webp"
-                height="300"
+                height="400"
                 alt="first model card extension"
               />
               <figcaption>
@@ -187,7 +192,8 @@
               />
               <figcaption>
                 I made the triangle frames into a garden, with plants on the
-                vertical walls.
+                vertical glass walls, like the walls of the original Eames
+                House.
               </figcaption>
             </figure>
           </div>
@@ -452,7 +458,6 @@
     font-family: 'Major Mono Display', monospace;
     font-size: 1.75rem;
     border-bottom: 1px solid #d15634;
-    width: 50%;
   }
 
   p {
@@ -461,6 +466,11 @@
     font-size: 1.25rem;
   }
   li {
+    font-family: 'Didact Gothic', sans-serif;
+    color: #233b4d;
+    font-size: 1.25rem;
+  }
+  ul {
     font-family: 'Didact Gothic', sans-serif;
     color: #233b4d;
     font-size: 1.25rem;
@@ -529,16 +539,10 @@
     width: min-content;
   }
 
-  .flex-text {
-    flex-wrap: wrap;
-  }
   @media (min-width: 640px) {
     main {
       max-width: none;
     }
   }
-  /* *
-{
-  box-sizing: border-box;
-  outline: 1px red !important} */
+
 </style>
