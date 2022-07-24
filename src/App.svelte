@@ -17,7 +17,7 @@
 <!-- svelte-ignore missing-declaration -->
 
 <main>
-  <p class="lastupdatetime">this page was last updated on July 21, 2022</p>
+  <p class="lastupdatetime">this page was last updated on July 23, 2022</p>
   <section>
     <h1 class="title">MY FRIST ARCHITECTURAL MODELS</h1>
   </section>
@@ -74,14 +74,23 @@
             style="float: left"
           />
         </div>
-          <div style="float: right;">
+        <div style="float: right;">
           <ul style="position: relative; left: 50px; top: 100px;">
             <li>Scale</li>
-            <ul style="position: relative; left: 0px; width: 750px;"><li>1:200 (1cm=2m). In this scale, most of the details, such as the variation in the thickness of the window frames, can be ignored.</li></ul>
+            <ul style="position: relative; left: 0px; width: 750px;">
+              <li>
+                1:200 (1cm=2m). In this scale, most of the details, such as the
+                variation in the thickness of the window frames, can be ignored.
+              </li>
+            </ul>
             <li>Goal</li>
-            <ul style="position: relative; left: 0px;"><li>Make a model of Eames House and brainstorm possible extensions.</li></ul>
+            <ul style="position: relative; left: 0px;  width: 750px;">
+              <li>
+                Make a model of Eames House, get a basic idea of its strucutre,
+                and brainstorm possible extensions.
+              </li>
+            </ul>
           </ul>
-        
         </div>
       </div>
     </section>
@@ -220,25 +229,76 @@
 
     <section class="background">
       <div class="flex-container">
-        <div>
-          <figure>
-            <img
-              class="pic-filler"
-              src="./images/Hicon32.webp"
-              height="400"
-              width="600"
-              alt="space filler"
-            />
-            <figcaption style="float: right; position: relative; left: 20px">
-              summary and idea of second model
-            </figcaption>
-          </figure>
+        <div style="float: left; width: 400">
+          <img
+            src="./images/IMG_2709.webp"
+            height="400"
+            alt="first model overview"
+            style="float: left"
+          />
+        </div>
+        <div style="float: right;">
+          <ul style="position: relative; left: 50px; top: 100px;">
+            <li>Scale</li>
+            <ul style="position: relative; left: 0px; width: 700px;">
+              <li>
+                1:100 (1cm=1m). In this scale, more details can be built out, including the interior.
+              </li>
+            </ul>
+            <li>Goal</li>
+            <ul style="position: relative; left: 0px;  width: 700px;">
+              <li>
+                Translate the previous abstract extension with more concrete details and materials, such as wood and chipboard.
+              </li>
+            </ul>
+          </ul>
         </div>
       </div>
     </section>
     <br />
     <section class="border">
       <h4>Process</h4>
+      <div class="flex-container">
+        <div class="flex-items">
+        <figure>
+          <img src="./images/IMG_2526.webp" height="300px" alt="a glass wall" />
+          <figcaption>This time, I used thin transparent plastic sheets to represent the glass walls. I used markers to draw and color the patterns.</figcaption>
+        </figure>
+      </div>
+      <div class="flex-items">
+        <figure>
+          <img src="./images/IMG_2533.webp" height="300px" alt="spiral staircase" />
+          <figcaption>I also built the interior structure, such as this spiral staircase. My finger is a scale reference.</figcaption>
+        </figure>
+      </div>
+      <div class="flex-items">
+        <figure>
+          <img src="./images/IMG_2624.webp" height="300px" alt="finished second Eames House" />
+          <figcaption>I concluded that the plastic sheets are very difficult to deal with, because only superglue work on them and the marker always smeared.</figcaption>
+        </figure>
+      </div>
+      </div>
+
+      <div class="flex-container">
+        <div class="flex-items">
+        <figure>
+          <img src="./images/IMG_2629.webp" height="300px" alt="decorated glass garden wall" />
+          <figcaption>Following the style of Eames House patterm, I designed the triangle garden walls with geometric shapes and repeated black and white lines.</figcaption>
+        </figure>
+      </div>
+        <div class="flex-items">
+        <figure>
+          <img src="./images/IMG_2879.webp" height="300px" alt="hill behind Eames House" />
+          <figcaption>I also build the contour near the house. There is a steep hill right behind the house, so the staircase descends from the hill to the ground.</figcaption>
+        </figure>
+      </div>
+        <div class="flex-items">
+        <figure>
+          <img src="./images/IMG_2876.webp" height="300px" alt="finished second model" />
+          <figcaption>The other problem of plastic sheet is that they bend too much and they can't support themselves. Not going to use it in the next model.</figcaption>
+        </figure>
+      </div>
+      </div>
     </section>
 
     <h2>3.Finish Model</h2>
@@ -544,5 +604,4 @@
       max-width: none;
     }
   }
-
 </style>
