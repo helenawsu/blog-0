@@ -543,7 +543,7 @@
             alt="finished third model"
             height="300"
           />
-
+          </div>
           <div class="flex-items">
             <img
               src="./images/IMG_2850.webp"
@@ -565,7 +565,6 @@
               height="300"
             />
           </div>
-        </div>
       </div>
     </section>
   </section>
