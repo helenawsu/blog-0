@@ -18,7 +18,7 @@
 
 <main>
   <p class="lastupdatetime">
-    this page was last updated on July 24, 2022 and it is basically done
+    this page was last updated on Aug 13, 2022 and it is done
   </p>
   <h1 class="title">
     <mark>M</mark>Y <mark>F</mark>RIST <mark>A</mark>RCHITECTURAL
@@ -83,17 +83,17 @@
             style="float: left"
           />
         </div>
-        <div style="float: right;">
-          <ul style="position: relative; left: 50px; top: 100px;">
+        <div style="float: right; width: 55%; padding-left: 100px; padding-top:80px;">
+          <ul>
             <li>Scale</li>
-            <ul style="position: relative; left: 0px; width: 750px;">
+            <ul>
               <li>
                 1:200 (1cm=2m). In this scale, most of the details, such as the
                 variation in the thickness of the window frames, can be ignored.
               </li>
             </ul>
             <li>Goal</li>
-            <ul style="position: relative; left: 0px;  width: 750px;">
+            <ul>
               <li>
                 Make a model of Eames House, get a basic idea of its strucutre,
                 and brainstorm possible extensions.
@@ -105,266 +105,266 @@
     </section>
     <br />
 
-      <h4><mark>P</mark>ROCESS:</h4>
-      <section class="background2">
-        <div class="flex-container">
-          <div class="flex-items">
-            <figure>
-              <img src="./images/IMG_2313.webp" height="300" alt="a big hole" />
-              <figcaption>Poking a hole for pillar to stick inside</figcaption>
-            </figure>
-          </div>
-          <div class="flex-items">
-            <figure>
-              <img
-                src="./images/IMG_2419.webp"
-                height="300"
-                alt="nearly-finished"
-              />
-              <figcaption>
-                1. With vibrant colors!! Contrast with the (supposedly) clear
-                glass!!
-                <br /> 2. I added the black mullions to make it more structured
-              </figcaption>
-            </figure>
-          </div>
-          <div class="flex-items">
-            <figure>
-              <img
-                src="./images/IMG_2430.webp"
-                height="300"
-                alt="first model Eames House"
-              />
-              <figcaption>
-                Finished Eames House. It basically consists of two rectangular
-                volumes.
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-        <br />
-      </section>
-      <h4>
-        <mark>B</mark>AINSTORMING <mark>P</mark>OSSIBLE <mark>E</mark>XTENSIONS
-      </h4>
-      <section class="background2">
-        <p style="padding: 10px; width: 90%">
-          After copying down the original house, I need to brainstorm new
-          additions to the building. It could be anything from a house for
-          living or a decoration. To get a better geometric sense of how the
-          extensions would look like, I played with everyday objects.
-        </p>
-        <div class="flex-container">
-          <div class="flex-items">
-            <figure>
-              <img
-                src="./images/IMG_2436.webp"
-                height="400"
-                alt="first model card extension"
-              />
-              <figcaption>
-                Card extensions. They could be gigantic slides for fun.
-              </figcaption>
-            </figure>
-          </div>
-          <div class="flex-items">
-            <figure>
-              <img
-                src="./images/IMG_2441.webp"
-                height="400"
-                alt="first model chips extension"
-              />
-              <figcaption>
-                Pencils and chips. They might be pure decorations.
-              </figcaption>
-            </figure>
-          </div>
-          <div class="flex-items">
-            <figure>
-              <img
-                src="./images/IMG_2439.webp"
-                height="400"
-                alt="first model pencil extension"
-              />
-              <figcaption>
-                Pencils. I was thinking of tent poles/bonfire when I made this.
-              </figcaption>
-            </figure>
-          </div>
-          <div class="flex-items">
-            <figure>
-              <img
-                src="./images/IMG_2440.webp"
-                height="400"
-                alt="first model triangle extension"
-              />
-              <figcaption>
-                Triangle frame. I decided to go with this because it's fun to
-                see such a big shape blance on its own.
-              </figcaption>
-            </figure>
-          </div>
-      </section>
-        <section class="background2">
-          <div class="flex-container">
-            <div class="flex-items">
-              <figure>
-                <img
-                  src="./images/IMG_2496.webp"
-                  height="400"
-                  alt="first model finished"
-                />
-                <figcaption>
-                  I made the triangle frames into a garden, with plants on the
-                  vertical glass walls, like the walls of the original Eames
-                  House.
-                </figcaption>
-              </figure>
-            </div>
-            <div class="flex-items">
-              <figure>
-                <!-- svelte-ignore a11y-img-redundant-alt -->
-                <img
-                  src="./images/plant photo.webp"
-                  height="400"
-                  alt="inspiration photo"
-                />
-                <figcaption>
-                  reference photo for the wall of plants (PC: Dezeen)
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-        </section>
-      </section>
-
-    <section>
-      <h2>2.Translational Model</h2>
-    </section>
-
-    <section class="background">
+    <h4><mark>P</mark>ROCESS:</h4>
+    <section class="background2">
       <div class="flex-container">
-        <div style="float: left; width: 400">
-          <img
-            src="./images/IMG_2709.webp"
-            height="400"
-            alt="first model overview"
-            style="float: left"
-          />
+        <div class="flex-items">
+          <figure>
+            <img src="./images/IMG_2313.webp" height="300" alt="a big hole" />
+            <figcaption>Poking a hole for pillar to stick inside</figcaption>
+          </figure>
         </div>
-        <div style="float: right;">
-          <ul style="position: relative; left: 50px; top: 100px;">
-            <li>Scale</li>
-            <ul style="position: relative; left: 0px; width: 700px;">
-              <li>
-                1:100 (1cm=1m). In this scale, more details can be built out,
-                including the interior.
-              </li>
-            </ul>
-            <li>Goal</li>
-            <ul style="position: relative; left: 0px;  width: 700px;">
-              <li>
-                Translate the previous abstract extension with more concrete
-                details and materials, such as wood and chipboard.
-              </li>
-            </ul>
-          </ul>
+        <div class="flex-items">
+          <figure>
+            <img
+              src="./images/IMG_2419.webp"
+              height="300"
+              alt="nearly-finished"
+            />
+            <figcaption>
+              1. With vibrant colors!! Contrast with the (supposedly) clear
+              glass!!
+              <br /> 2. I added the black mullions to make it more structured
+            </figcaption>
+          </figure>
+        </div>
+        <div class="flex-items">
+          <figure>
+            <img
+              src="./images/IMG_2430.webp"
+              height="300"
+              alt="first model Eames House"
+            />
+            <figcaption>
+              Finished Eames House. It basically consists of two rectangular
+              volumes.
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <br />
+    </section>
+    <h4>
+      <mark>B</mark>AINSTORMING <mark>P</mark>OSSIBLE <mark>E</mark>XTENSIONS
+    </h4>
+    <section class="background2">
+      <p style="padding: 10px; width: 90%">
+        After copying down the original house, I need to brainstorm new
+        additions to the building. It could be anything from a house for living
+        or a decoration. To get a better geometric sense of how the extensions
+        would look like, I played with everyday objects.
+      </p>
+      <div class="flex-container">
+        <div class="flex-items">
+          <figure>
+            <img
+              src="./images/IMG_2436.webp"
+              height="400"
+              alt="first model card extension"
+            />
+            <figcaption>
+              Card extensions. They could be gigantic slides for fun.
+            </figcaption>
+          </figure>
+        </div>
+        <div class="flex-items">
+          <figure>
+            <img
+              src="./images/IMG_2441.webp"
+              height="400"
+              alt="first model chips extension"
+            />
+            <figcaption>
+              Pencils and chips. They might be pure decorations.
+            </figcaption>
+          </figure>
+        </div>
+        <div class="flex-items">
+          <figure>
+            <img
+              src="./images/IMG_2439.webp"
+              height="400"
+              alt="first model pencil extension"
+            />
+            <figcaption>
+              Pencils. I was thinking of tent poles/bonfire when I made this.
+            </figcaption>
+          </figure>
+        </div>
+        <div class="flex-items">
+          <figure>
+            <img
+              src="./images/IMG_2440.webp"
+              height="400"
+              alt="first model triangle extension"
+            />
+            <figcaption>
+              Triangle frame. I decided to go with this because it's fun to see
+              such a big shape blance on its own.
+            </figcaption>
+          </figure>
         </div>
       </div>
     </section>
-    <br />
-    <section class="border">
-      <h4><mark>P</mark>ROCESS:</h4>
-      <section class="background2">
-        <div class="flex-container">
-          <div class="flex-items">
-            <figure>
-              <img
-                src="./images/IMG_2526.webp"
-                height="300px"
-                alt="a glass wall"
-              />
-              <figcaption>
-                This time, I used thin transparent plastic sheets to represent
-                the glass walls. I used markers to draw and color the patterns.
-              </figcaption>
-            </figure>
-          </div>
-          <div class="flex-items">
-            <figure>
-              <img
-                src="./images/IMG_2533.webp"
-                height="300px"
-                alt="spiral staircase"
-              />
-              <figcaption>
-                I also built the interior structure, such as this spiral
-                staircase. My finger is a scale reference.
-              </figcaption>
-            </figure>
-          </div>
-          <div class="flex-items">
-            <figure>
-              <img
-                src="./images/IMG_2624.webp"
-                height="300px"
-                alt="finished second Eames House"
-              />
-              <figcaption>
-                I concluded that the plastic sheets are very difficult to deal
-                with, because only superglue work on them and the marker always
-                smeared.
-              </figcaption>
-            </figure>
-          </div>
+    <section class="background2">
+      <div class="flex-container">
+        <div class="flex-items">
+          <figure>
+            <img
+              src="./images/IMG_2496.webp"
+              height="400"
+              alt="first model finished"
+            />
+            <figcaption>
+              I made the triangle frames into a garden, with plants on the
+              vertical glass walls, like the walls of the original Eames House.
+            </figcaption>
+          </figure>
         </div>
-      </section>
-      <section class="background2">
-        <div class="flex-container">
-          <div class="flex-items">
-            <figure>
-              <img
-                src="./images/IMG_2629.webp"
-                height="300px"
-                alt="decorated glass garden wall"
-              />
-              <figcaption>
-                Following the style of Eames House patterm, I designed the
-                triangle garden walls with geometric shapes and repeated black
-                and white lines.
-              </figcaption>
-            </figure>
-          </div>
-          <div class="flex-items">
-            <figure>
-              <img
-                src="./images/IMG_2879.webp"
-                height="300px"
-                alt="hill behind Eames House"
-              />
-              <figcaption>
-                I also build the contour near the house. There is a steep hill
-                right behind the house, so the staircase descends from the hill
-                to the ground.
-              </figcaption>
-            </figure>
-          </div>
-          <div class="flex-items">
-            <figure>
-              <img
-                src="./images/IMG_2876.webp"
-                height="300px"
-                alt="finished second model"
-              />
-              <figcaption>
-                The other problem of plastic sheet is that they bend too much
-                and they can't support themselves. Not going to use it in the
-                next model.
-              </figcaption>
-            </figure>
-          </div>
+        <div class="flex-items">
+          <figure>
+            <!-- svelte-ignore a11y-img-redundant-alt -->
+            <img
+              src="./images/plant photo.webp"
+              height="400"
+              alt="inspiration photo"
+            />
+            <figcaption>
+              reference photo for the wall of plants (PC: Dezeen)
+            </figcaption>
+          </figure>
         </div>
-      </section>
+      </div>
+    </section>
+  </section>
+
+  <section>
+    <h2>2.Translational Model</h2>
+  </section>
+
+  <section class="background">
+    <div class="flex-container">
+      <div style="float: left; width: 400">
+        <img
+          src="./images/IMG_2709.webp"
+          height="400"
+          alt="first model overview"
+          style="float: left"
+        />
+      </div>
+      <div  style="float: right; width: 55%; padding-left: 60px; padding-top:100px;">
+        <ul>
+          <li>Scale</li>
+          <ul>
+            <li>
+              1:100 (1cm=1m). In this scale, more details can be built out,
+              including the interior.
+            </li>
+          </ul>
+          <li>Goal</li>
+          <ul>
+            <li>
+              Translate the previous abstract extension with more concrete
+              details and materials, such as wood and chipboard.
+            </li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <br />
+  <section class="border">
+    <h4><mark>P</mark>ROCESS:</h4>
+    <section class="background2">
+      <div class="flex-container">
+        <div class="flex-items">
+          <figure>
+            <img
+              src="./images/IMG_2526.webp"
+              height="300px"
+              alt="a glass wall"
+            />
+            <figcaption>
+              This time, I used thin transparent plastic sheets to represent the
+              glass walls. I used markers to draw and color the patterns.
+            </figcaption>
+          </figure>
+        </div>
+        <div class="flex-items">
+          <figure>
+            <img
+              src="./images/IMG_2533.webp"
+              height="300px"
+              alt="spiral staircase"
+            />
+            <figcaption>
+              I also built the interior structure, such as this spiral
+              staircase. My finger is a scale reference.
+            </figcaption>
+          </figure>
+        </div>
+        <div class="flex-items">
+          <figure>
+            <img
+              src="./images/IMG_2624.webp"
+              height="300px"
+              alt="finished second Eames House"
+            />
+            <figcaption>
+              I concluded that the plastic sheets are very difficult to deal
+              with, because only superglue work on them and the marker always
+              smeared.
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section class="background2">
+      <div class="flex-container">
+        <div class="flex-items">
+          <figure>
+            <img
+              src="./images/IMG_2629.webp"
+              height="300px"
+              alt="decorated glass garden wall"
+            />
+            <figcaption>
+              Following the style of Eames House patterm, I designed the
+              triangle garden walls with geometric shapes and repeated black and
+              white lines.
+            </figcaption>
+          </figure>
+        </div>
+        <div class="flex-items">
+          <figure>
+            <img
+              src="./images/IMG_2879.webp"
+              height="300px"
+              alt="hill behind Eames House"
+            />
+            <figcaption>
+              I also build the contour near the house. There is a steep hill
+              right behind the house, so the staircase descends from the hill to
+              the ground.
+            </figcaption>
+          </figure>
+        </div>
+        <div class="flex-items">
+          <figure>
+            <img
+              src="./images/IMG_2876.webp"
+              height="300px"
+              alt="finished second model"
+            />
+            <figcaption>
+              The other problem of plastic sheet is that they bend too much and
+              they can't support themselves. Not going to use it in the next
+              model.
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
 
     <h2>3.Finish Model</h2>
 
@@ -543,28 +543,28 @@
             alt="finished third model"
             height="300"
           />
-          </div>
-          <div class="flex-items">
-            <img
-              src="./images/IMG_2850.webp"
-              alt="finished third model"
-              height="300"
-            />
-          </div>
-          <div class="flex-items">
-            <img
-              src="./images/IMG_2847.webp"
-              alt="finished third model"
-              height="300"
-            />
-          </div>
-          <div class="flex-items">
-            <img
-              src="./images/IMG_2875.webp"
-              alt="finished third model"
-              height="300"
-            />
-          </div>
+        </div>
+        <div class="flex-items">
+          <img
+            src="./images/IMG_2850.webp"
+            alt="finished third model"
+            height="300"
+          />
+        </div>
+        <div class="flex-items">
+          <img
+            src="./images/IMG_2847.webp"
+            alt="finished third model"
+            height="300"
+          />
+        </div>
+        <div class="flex-items">
+          <img
+            src="./images/IMG_2875.webp"
+            alt="finished third model"
+            height="300"
+          />
+        </div>
       </div>
     </section>
   </section>
